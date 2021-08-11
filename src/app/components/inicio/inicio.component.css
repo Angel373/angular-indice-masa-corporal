@@ -1,0 +1,40 @@
+
+.fondo-item {
+    height: 120px;
+    border-radius: 12px;
+    background-color: #faebaa;
+}
+
+.genero {
+    font-size: 50px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.estilo-numero {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -30px;
+}
+.cm {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -10px;
+    color: blue;
+}
+.form-range {
+    padding: 0px 20px;
+    
+}
+.down-up {
+    font-size: 30px;
+}
+
+.genero-activado {
+    background-color: #ff6600;
+}
