@@ -30,8 +30,11 @@ export class InicioComponent implements OnInit {
   }
 
   calcular() {
-    //
-    this.router.navigate(['/resultado']);
+    const imc = this.peso/Math.pow(this.altura / 100, 2);
+    console.log(imc.toFixed(1));
+
+    //rutear
+    this.router.navigate(['/resultado', imc.toFixed(1)]);
   }
 
 }
